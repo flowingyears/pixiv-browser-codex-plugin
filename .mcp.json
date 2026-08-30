@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "pixiv-browser": {
+      "command": "python",
+      "args": [
+        "scripts/pixiv_mcp.py"
+      ]
+    }
+  }
+}

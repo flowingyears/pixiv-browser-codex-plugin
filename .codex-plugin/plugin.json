@@ -1,0 +1,28 @@
+{
+  "name": "pixiv-browser",
+  "version": "0.2.0",
+  "description": "Search, rank, inspect, and preview public illustrations from the official Pixiv website.",
+  "author": {
+    "name": "Local developer"
+  },
+  "homepage": "https://www.pixiv.net/",
+  "license": "UNLICENSED",
+  "keywords": ["pixiv", "illustration", "image-search"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Pixiv Browser",
+    "shortDescription": "Search public artwork on Pixiv.",
+    "longDescription": "Searches Pixiv's official website, ranks public illustrations by bookmark count, filters Pixiv-declared AI works, opens artwork details, and previews thumbnails. No Pixiv password or third-party proxy API is used.",
+    "developerName": "Local developer",
+    "category": "Entertainment",
+    "capabilities": ["Search", "Ranking", "Read", "Images"],
+    "websiteURL": "https://www.pixiv.net/",
+    "defaultPrompt": [
+      "Search Pixiv for illustrations of a character.",
+      "Show details for a Pixiv artwork ID.",
+      "Preview a public Pixiv illustration."
+    ],
+    "brandColor": "#0096FA"
+  }
+}
